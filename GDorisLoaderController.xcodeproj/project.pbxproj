@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8DF38C2498FF1200B3ABC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF38B2498FF1200B3ABC3 /* AppDelegate.m */; };
+		2B8DF38F2498FF1200B3ABC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF38E2498FF1200B3ABC3 /* SceneDelegate.m */; };
+		2B8DF3922498FF1200B3ABC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF3912498FF1200B3ABC3 /* ViewController.m */; };
+		2B8DF3952498FF1200B3ABC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8DF3932498FF1200B3ABC3 /* Main.storyboard */; };
+		2B8DF3972498FF1500B3ABC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8DF3962498FF1500B3ABC3 /* Assets.xcassets */; };
+		2B8DF39A2498FF1500B3ABC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8DF3982498FF1500B3ABC3 /* LaunchScreen.storyboard */; };
+		2B8DF39D2498FF1500B3ABC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF39C2498FF1500B3ABC3 /* main.m */; };
+		2B8DF3A72498FF1500B3ABC3 /* GDorisLoaderControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF3A62498FF1500B3ABC3 /* GDorisLoaderControllerTests.m */; };
+		2B8DF3B22498FF1500B3ABC3 /* GDorisLoaderControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF3B12498FF1500B3ABC3 /* GDorisLoaderControllerUITests.m */; };
+		2B8DF3C22498FF5700B3ABC3 /* GDorisLoaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF3C12498FF5700B3ABC3 /* GDorisLoaderController.m */; };
+		2B8DF3C52498FF8100B3ABC3 /* GDorisLoaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF3C42498FF8100B3ABC3 /* GDorisLoaderOperation.m */; };
+		2B8DF3C82498FFC600B3ABC3 /* GDorisLoaderQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DF3C72498FFC600B3ABC3 /* GDorisLoaderQueue.m */; };
+		2BD667852499F22800310506 /* GDorisProgressObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD667842499F22800310506 /* GDorisProgressObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8DF3A32498FF1500B3ABC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8DF37F2498FF1200B3ABC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8DF3862498FF1200B3ABC3;
+			remoteInfo = GDorisLoaderController;
+		};
+		2B8DF3AE2498FF1500B3ABC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8DF37F2498FF1200B3ABC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8DF3862498FF1200B3ABC3;
+			remoteInfo = GDorisLoaderController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8DF3872498FF1200B3ABC3 /* GDorisLoaderController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDorisLoaderController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8DF38A2498FF1200B3ABC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B8DF38B2498FF1200B3ABC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B8DF38D2498FF1200B3ABC3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B8DF38E2498FF1200B3ABC3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B8DF3902498FF1200B3ABC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B8DF3912498FF1200B3ABC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B8DF3942498FF1200B3ABC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B8DF3962498FF1500B3ABC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8DF3992498FF1500B3ABC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B8DF39B2498FF1500B3ABC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8DF39C2498FF1500B3ABC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B8DF3A22498FF1500B3ABC3 /* GDorisLoaderControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDorisLoaderControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8DF3A62498FF1500B3ABC3 /* GDorisLoaderControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDorisLoaderControllerTests.m; sourceTree = "<group>"; };
+		2B8DF3A82498FF1500B3ABC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8DF3AD2498FF1500B3ABC3 /* GDorisLoaderControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDorisLoaderControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8DF3B12498FF1500B3ABC3 /* GDorisLoaderControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDorisLoaderControllerUITests.m; sourceTree = "<group>"; };
+		2B8DF3B32498FF1500B3ABC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8DF3C02498FF5700B3ABC3 /* GDorisLoaderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDorisLoaderController.h; sourceTree = "<group>"; };
+		2B8DF3C12498FF5700B3ABC3 /* GDorisLoaderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDorisLoaderController.m; sourceTree = "<group>"; };
+		2B8DF3C32498FF8100B3ABC3 /* GDorisLoaderOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDorisLoaderOperation.h; sourceTree = "<group>"; };
+		2B8DF3C42498FF8100B3ABC3 /* GDorisLoaderOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDorisLoaderOperation.m; sourceTree = "<group>"; };
+		2B8DF3C62498FFC600B3ABC3 /* GDorisLoaderQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDorisLoaderQueue.h; sourceTree = "<group>"; };
+		2B8DF3C72498FFC600B3ABC3 /* GDorisLoaderQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDorisLoaderQueue.m; sourceTree = "<group>"; };
+		2BD667832499F22800310506 /* GDorisProgressObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDorisProgressObserver.h; sourceTree = "<group>"; };
+		2BD667842499F22800310506 /* GDorisProgressObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDorisProgressObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8DF3842498FF1200B3ABC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8DF39F2498FF1500B3ABC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8DF3AA2498FF1500B3ABC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8DF37E2498FF1200B3ABC3 = {
+			isa = PBXGroup;
+			children = (
+				2B8DF3892498FF1200B3ABC3 /* GDorisLoaderController */,
+				2B8DF3A52498FF1500B3ABC3 /* GDorisLoaderControllerTests */,
+				2B8DF3B02498FF1500B3ABC3 /* GDorisLoaderControllerUITests */,
+				2B8DF3882498FF1200B3ABC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8DF3882498FF1200B3ABC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DF3872498FF1200B3ABC3 /* GDorisLoaderController.app */,
+				2B8DF3A22498FF1500B3ABC3 /* GDorisLoaderControllerTests.xctest */,
+				2B8DF3AD2498FF1500B3ABC3 /* GDorisLoaderControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8DF3892498FF1200B3ABC3 /* GDorisLoaderController */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DF3BF2498FF3A00B3ABC3 /* GDorisLoader */,
+				2B8DF38A2498FF1200B3ABC3 /* AppDelegate.h */,
+				2B8DF38B2498FF1200B3ABC3 /* AppDelegate.m */,
+				2B8DF38D2498FF1200B3ABC3 /* SceneDelegate.h */,
+				2B8DF38E2498FF1200B3ABC3 /* SceneDelegate.m */,
+				2B8DF3902498FF1200B3ABC3 /* ViewController.h */,
+				2B8DF3912498FF1200B3ABC3 /* ViewController.m */,
+				2B8DF3932498FF1200B3ABC3 /* Main.storyboard */,
+				2B8DF3962498FF1500B3ABC3 /* Assets.xcassets */,
+				2B8DF3982498FF1500B3ABC3 /* LaunchScreen.storyboard */,
+				2B8DF39B2498FF1500B3ABC3 /* Info.plist */,
+				2B8DF39C2498FF1500B3ABC3 /* main.m */,
+			);
+			path = GDorisLoaderController;
+			sourceTree = "<group>";
+		};
+		2B8DF3A52498FF1500B3ABC3 /* GDorisLoaderControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DF3A62498FF1500B3ABC3 /* GDorisLoaderControllerTests.m */,
+				2B8DF3A82498FF1500B3ABC3 /* Info.plist */,
+			);
+			path = GDorisLoaderControllerTests;
+			sourceTree = "<group>";
+		};
+		2B8DF3B02498FF1500B3ABC3 /* GDorisLoaderControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DF3B12498FF1500B3ABC3 /* GDorisLoaderControllerUITests.m */,
+				2B8DF3B32498FF1500B3ABC3 /* Info.plist */,
+			);
+			path = GDorisLoaderControllerUITests;
+			sourceTree = "<group>";
+		};
+		2B8DF3BF2498FF3A00B3ABC3 /* GDorisLoader */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DF3C02498FF5700B3ABC3 /* GDorisLoaderController.h */,
+				2B8DF3C12498FF5700B3ABC3 /* GDorisLoaderController.m */,
+				2B8DF3C32498FF8100B3ABC3 /* GDorisLoaderOperation.h */,
+				2B8DF3C42498FF8100B3ABC3 /* GDorisLoaderOperation.m */,
+				2B8DF3C62498FFC600B3ABC3 /* GDorisLoaderQueue.h */,
+				2B8DF3C72498FFC600B3ABC3 /* GDorisLoaderQueue.m */,
+				2BD667832499F22800310506 /* GDorisProgressObserver.h */,
+				2BD667842499F22800310506 /* GDorisProgressObserver.m */,
+			);
+			path = GDorisLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8DF3862498FF1200B3ABC3 /* GDorisLoaderController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8DF3B62498FF1500B3ABC3 /* Build configuration list for PBXNativeTarget "GDorisLoaderController" */;
+			buildPhases = (
+				2B8DF3832498FF1200B3ABC3 /* Sources */,
+				2B8DF3842498FF1200B3ABC3 /* Frameworks */,
+				2B8DF3852498FF1200B3ABC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDorisLoaderController;
+			productName = GDorisLoaderController;
+			productReference = 2B8DF3872498FF1200B3ABC3 /* GDorisLoaderController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B8DF3A12498FF1500B3ABC3 /* GDorisLoaderControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8DF3B92498FF1500B3ABC3 /* Build configuration list for PBXNativeTarget "GDorisLoaderControllerTests" */;
+			buildPhases = (
+				2B8DF39E2498FF1500B3ABC3 /* Sources */,
+				2B8DF39F2498FF1500B3ABC3 /* Frameworks */,
+				2B8DF3A02498FF1500B3ABC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8DF3A42498FF1500B3ABC3 /* PBXTargetDependency */,
+			);
+			name = GDorisLoaderControllerTests;
+			productName = GDorisLoaderControllerTests;
+			productReference = 2B8DF3A22498FF1500B3ABC3 /* GDorisLoaderControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B8DF3AC2498FF1500B3ABC3 /* GDorisLoaderControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8DF3BC2498FF1500B3ABC3 /* Build configuration list for PBXNativeTarget "GDorisLoaderControllerUITests" */;
+			buildPhases = (
+				2B8DF3A92498FF1500B3ABC3 /* Sources */,
+				2B8DF3AA2498FF1500B3ABC3 /* Frameworks */,
+				2B8DF3AB2498FF1500B3ABC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8DF3AF2498FF1500B3ABC3 /* PBXTargetDependency */,
+			);
+			name = GDorisLoaderControllerUITests;
+			productName = GDorisLoaderControllerUITests;
+			productReference = 2B8DF3AD2498FF1500B3ABC3 /* GDorisLoaderControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8DF37F2498FF1200B3ABC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = GIKI;
+				TargetAttributes = {
+					2B8DF3862498FF1200B3ABC3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					2B8DF3A12498FF1500B3ABC3 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2B8DF3862498FF1200B3ABC3;
+					};
+					2B8DF3AC2498FF1500B3ABC3 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2B8DF3862498FF1200B3ABC3;
+					};
+				};
+			};
+			buildConfigurationList = 2B8DF3822498FF1200B3ABC3 /* Build configuration list for PBXProject "GDorisLoaderController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8DF37E2498FF1200B3ABC3;
+			productRefGroup = 2B8DF3882498FF1200B3ABC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8DF3862498FF1200B3ABC3 /* GDorisLoaderController */,
+				2B8DF3A12498FF1500B3ABC3 /* GDorisLoaderControllerTests */,
+				2B8DF3AC2498FF1500B3ABC3 /* GDorisLoaderControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8DF3852498FF1200B3ABC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8DF39A2498FF1500B3ABC3 /* LaunchScreen.storyboard in Resources */,
+				2B8DF3972498FF1500B3ABC3 /* Assets.xcassets in Resources */,
+				2B8DF3952498FF1200B3ABC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8DF3A02498FF1500B3ABC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8DF3AB2498FF1500B3ABC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8DF3832498FF1200B3ABC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8DF3922498FF1200B3ABC3 /* ViewController.m in Sources */,
+				2BD667852499F22800310506 /* GDorisProgressObserver.m in Sources */,
+				2B8DF3C22498FF5700B3ABC3 /* GDorisLoaderController.m in Sources */,
+				2B8DF3C52498FF8100B3ABC3 /* GDorisLoaderOperation.m in Sources */,
+				2B8DF38C2498FF1200B3ABC3 /* AppDelegate.m in Sources */,
+				2B8DF3C82498FFC600B3ABC3 /* GDorisLoaderQueue.m in Sources */,
+				2B8DF39D2498FF1500B3ABC3 /* main.m in Sources */,
+				2B8DF38F2498FF1200B3ABC3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8DF39E2498FF1500B3ABC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8DF3A72498FF1500B3ABC3 /* GDorisLoaderControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8DF3A92498FF1500B3ABC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8DF3B22498FF1500B3ABC3 /* GDorisLoaderControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8DF3A42498FF1500B3ABC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8DF3862498FF1200B3ABC3 /* GDorisLoaderController */;
+			targetProxy = 2B8DF3A32498FF1500B3ABC3 /* PBXContainerItemProxy */;
+		};
+		2B8DF3AF2498FF1500B3ABC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8DF3862498FF1200B3ABC3 /* GDorisLoaderController */;
+			targetProxy = 2B8DF3AE2498FF1500B3ABC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B8DF3932498FF1200B3ABC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8DF3942498FF1200B3ABC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B8DF3982498FF1500B3ABC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8DF3992498FF1500B3ABC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8DF3B42498FF1500B3ABC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B8DF3B52498FF1500B3ABC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8DF3B72498FF1500B3ABC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44JM5SC2D7;
+				INFOPLIST_FILE = GDorisLoaderController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GDorisLoaderController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B8DF3B82498FF1500B3ABC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44JM5SC2D7;
+				INFOPLIST_FILE = GDorisLoaderController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GDorisLoaderController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B8DF3BA2498FF1500B3ABC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44JM5SC2D7;
+				INFOPLIST_FILE = GDorisLoaderControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GDorisLoaderControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDorisLoaderController.app/GDorisLoaderController";
+			};
+			name = Debug;
+		};
+		2B8DF3BB2498FF1500B3ABC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44JM5SC2D7;
+				INFOPLIST_FILE = GDorisLoaderControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GDorisLoaderControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDorisLoaderController.app/GDorisLoaderController";
+			};
+			name = Release;
+		};
+		2B8DF3BD2498FF1500B3ABC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44JM5SC2D7;
+				INFOPLIST_FILE = GDorisLoaderControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GDorisLoaderControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GDorisLoaderController;
+			};
+			name = Debug;
+		};
+		2B8DF3BE2498FF1500B3ABC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44JM5SC2D7;
+				INFOPLIST_FILE = GDorisLoaderControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GDorisLoaderControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GDorisLoaderController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8DF3822498FF1200B3ABC3 /* Build configuration list for PBXProject "GDorisLoaderController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8DF3B42498FF1500B3ABC3 /* Debug */,
+				2B8DF3B52498FF1500B3ABC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8DF3B62498FF1500B3ABC3 /* Build configuration list for PBXNativeTarget "GDorisLoaderController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8DF3B72498FF1500B3ABC3 /* Debug */,
+				2B8DF3B82498FF1500B3ABC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8DF3B92498FF1500B3ABC3 /* Build configuration list for PBXNativeTarget "GDorisLoaderControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8DF3BA2498FF1500B3ABC3 /* Debug */,
+				2B8DF3BB2498FF1500B3ABC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8DF3BC2498FF1500B3ABC3 /* Build configuration list for PBXNativeTarget "GDorisLoaderControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8DF3BD2498FF1500B3ABC3 /* Debug */,
+				2B8DF3BE2498FF1500B3ABC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8DF37F2498FF1200B3ABC3 /* Project object */;
+}
